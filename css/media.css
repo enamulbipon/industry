@@ -1,0 +1,311 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*Header Start*/
+	.menu li a {
+    padding:3px 0 !important;
+}
+	/*Header End*/
+	/*Banner Start*/
+	.industrial_banner {
+    padding-top: 170px;
+    padding-bottom: 150px;
+}
+	.industrial_banner h1 {
+    font-size: 30px;
+}
+	.b_p1 {
+    letter-spacing:0px;
+}
+	.industrial_banner h1 {
+    margin: 15px 0;
+}
+	.b_p2 {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+	/*Banner End*/
+	/*Service Start*/
+	.s_top {
+    padding: 30px 0;
+}
+	.s_top h1 {
+    font-size: 30px;
+    margin: 0;
+}
+	.squire {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+	.s_bottom h2 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+	.s_bottom p {
+    line-height: 22px;
+    font-size: 14px;
+}
+	/*Service End*/
+	
+	/*Made Start*/
+	.made {
+    padding: 60px 0;
+}
+	.m_left h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 36px;
+}
+	/*Made End*/
+
+	/*Market start*/
+	.market {
+    padding: 40px 0;
+}
+	.top {
+    font-size: 19px;
+}
+	.p_20 {
+    padding: 10px 0;
+}	
+	.m_bottom {
+    text-align: center;
+}
+	/*Market end*/
+
+	/*Clients Start*/
+	.circle {
+    margin-top:20px;
+}
+	/*Clients End*/
+	/*Latest*/
+	.latest {
+    padding: 40px 0;
+}
+	/*Latest*/
+
+	/*Iframe*/
+	.i_custom {
+    left: 0;
+    top: 250px;
+}
+	.enjoy {
+    padding: 40px 0;
+}
+	/*Iframe*/
+
+	/*Blog Start*/
+	.blog{
+    padding: 40px 0;
+}
+	/*Blog End*/
+	/*Footer*/
+	.footer {
+    padding: 40px 0;
+}
+	.n_bar {
+    min-width:200px !important;;
+}
+	.f_right {
+    padding-left: 0;
+    padding-top: 15px;
+}
+	/*Footer*/
+
+}
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*Header Start*/
+	.menu li a {
+    padding:3px 0 !important;
+}
+	/*Header End*/
+	/*Banner Start*/
+	.industrial_banner {
+    padding-top: 240px;
+    padding-bottom: 140px;
+}
+	.industrial_banner h1 {
+    font-size: 32px;
+}
+	.b_p1 {
+    letter-spacing: 1px;
+}
+	.b_p2 {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+	/*Banner End*/
+
+	/*Service Start*/
+	.s_top {
+    padding: 35px 0;
+}
+	.s_top h1 {
+    font-size: 35px;
+}
+	.squire {
+    margin-top: 0;
+}
+	.s_bottom {
+    padding-bottom: 25px;
+}
+	.s_bottom p {
+	font-size: 14px;	
+    margin: 0 101px;
+    padding-bottom: 10px;
+}
+	/*Service End*/
+
+	/*Made Start*/
+	.made {
+    padding: 80px 0;
+}
+	.m_left h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+	/*Made End*/
+
+	/*Market start*/
+	.market {
+    padding: 80px 0;
+}
+	.top {
+    font-size: 33px;
+}
+	.p_20 {
+    padding: 15px 0;
+}	
+	.m_bottom {
+    text-align: center;
+}
+	/*Market end*/
+
+	/*Clients Start*/
+	.circle {
+    margin-top:30px;
+}
+	/*Clients End*/
+
+	/*Latest*/
+	.latest {
+    padding: 80px 0;
+}
+	/*Latest*/
+
+	/*Iframe*/
+	.i_custom {
+    left: -470px;
+    top: 165px;
+}
+	.enjoy {
+    padding: 80px 0;
+}
+	/*Iframe*/
+
+	/*Blog Start*/
+	.blog{
+    padding: 40px 0;
+}
+	/*Blog End*
+	/*Footer*/
+	.n_bar {
+    min-width:156px !important;;
+}
+	.f_right {
+    padding-left: 60px;
+}
+	.f_middle{
+	padding-bottom: 20px;
+}
+	/*Footer*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*Header Start*/
+	.menu li a {
+    padding:5px 0 !important;
+}
+	/*Header End*/
+
+	/*Service Start*/
+	.s_bottom {
+    padding-bottom: 40px;
+}
+	.s_bottom p {
+    margin: 0 200px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+	/*Service End*/
+
+	/*Market start*/
+	.m_bottom {
+    text-align: center;
+}
+	/*Market end*/
+
+	/*Clients Start*/
+	.circle {
+    margin-top: 50px;
+}
+	/*Clients End*/
+	/*Iframe*/
+	iframe{
+		width: 700px;
+}
+	.i_custom {
+    left: -645px;
+    top: 135px;
+}
+	/*Iframe*/
+
+	/*Blog Start*/
+	.m_bottom h3{
+    font-size: 16px;
+    line-height: 25px;
+}
+	/*Blog End*/
+
+	/*Footer*/
+	.n_bar {
+    min-width: 245px;
+}
+	.f_right{
+	padding-left:0px;
+}
+	/*Footer*/
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*Service Start*/
+	.s_bottom p {
+    margin: 0 0;
+    font-size: 14px;
+}
+	/*Service End*/
+
+	/*enjoy start*/
+	iframe{
+		width: 450px;
+}
+	.i_custom {
+    left: -409px;
+}
+	/*enjoy end*/
+	
+	/*Blog Start*/
+	.m_bottom h3{
+    font-size: 16px;
+}
+	/*Blog End*/
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }

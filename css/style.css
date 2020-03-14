@@ -1,0 +1,388 @@
+/*font-family: "Poppins", sans-serif;*/
+body{
+	font-family: "Poppins", sans-serif;
+	color: #777777;
+}
+h2, h3, h4, h5, h6 {
+	font-weight:600;
+	color: #222222;
+	line-height: 45px;
+	margin-bottom: 0;
+    margin-top: 0;
+}
+/*Header Start*/
+header {
+    padding: 15px 0;
+    position:fixed;
+    z-index:9999;
+    background-color:#fff;
+    top:0;
+    right:0;
+    left:0;
+    box-shadow:-13.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+.menu li a {
+    text-transform: uppercase;
+    padding-left: 10px !important;
+    transition:0.5s;
+}
+.menu li a:hover{
+	color:#f9b700 !important;
+}
+/*Header End*/
+/*Banner Start*/
+.banner{
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	position: relative;
+
+}
+.b_overlay{
+	background:rgba(0,0,0,0.5);
+}
+
+.industrial_banner {
+    padding-top: 240px;
+    padding-bottom:340px;
+    color:#fff;
+
+}
+.b_p1{
+
+	text-transform:uppercase;
+	letter-spacing: 2px;
+}
+.industrial_banner h1{
+
+    font-size: 48px;
+    font-weight:700;
+    margin:20px 0;
+}
+.b_p2{}
+.button {
+    color:#fff;
+    background: #fab700;
+    border: 1px solid #fab700;
+    border-radius: 0;
+    padding: 10px 30px;
+    transition:0.3s;
+}
+.button:hover{
+	background: transparent;
+	border:1px solid #fff;
+	color:#fff;
+}
+/*Banner End*/
+/*Service Start*/
+.service{
+
+}
+.s_top {
+    padding: 50px 0;
+}
+.top {
+    font-weight: 600;
+    font-size: 40px;
+    color: #222222;
+}
+.s_bottom{
+
+}
+.squire {
+    font-family: 'Linearicons-Free';
+    font-size: 28px;
+    color: #A7A7A7;
+    cursor: pointer;
+    border: 1px solid #A7A7A7;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 15px 20px;
+    transition:0.5s;
+    display: inline-block;
+    margin-top: 10px;
+}
+.squire:hover{
+	background-color: #f9b700;
+	border:1px solid #f9b700;
+}
+
+.s_bottom h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.s_bottom p {
+	font-size:16px;
+    word-spacing: 2px;
+    line-height: 22px;
+}
+/*Service End*/
+
+/*Made Start*/
+.made{
+	background-color: #f9f9ff;
+	padding:120px 0;
+}
+.m_left {
+    padding: 35px 0;
+}
+.m_yellow {
+    color: #fab700;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.m_left h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.m_black{
+	font-weight: 300;
+	color:#222;
+	margin-bottom: 5px;
+}
+.m_silver {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.g_btn{
+	padding:10px 60px;
+}
+.g_btn:hover,.btn_custom:hover{
+	background: transparent;
+	border:1px solid #fab700;
+	color:#fab700;
+}
+/*Made End*/
+
+/*Quote Start*/
+.quote{
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+	url(../images/form-bg.jpg);
+	background-size:cover;
+	padding: 30px;
+}
+.q_overlay{}
+.pb_20{
+	font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.m_none{
+	margin-bottom:0;
+}
+.b_none,.b_margin{
+    font-size: 14px;
+	border-radius:0;
+	margin-bottom:5px;
+	border-radius: 0;
+    background: transparent;
+    border: 1px solid white;
+}
+.q_btn{
+	padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 500;
+	width:100%;
+	color: #fff;
+    background: #fab700;
+    border: 1px solid #fab700;
+    border-radius: 0;
+}
+input{
+	color:white;
+}
+input[type=email]{
+  color:white;
+}
+input[type=email]:focus{
+  background-color:transparent;
+}
+/*Quote End*/
+
+/*Market Start*/
+.market,.enjoy{
+	padding: 120px 0;
+}
+.p_20{
+	padding:20px 0;
+}
+.m_bottom{
+	cursor:pointer;
+}
+.b_img{
+	overflow: hidden;
+}
+.b_img img,.m_bottom h3{
+	width: 100%;
+	transition:all 0.3s ease 0s;
+}
+.m_bottom img:hover{
+	transform: scale(1.1) rotate(-2deg);
+}
+.m_bottom h3,.h4{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.m_bottom:hover h3{
+	color: #fab700;
+}
+/*Market End*/
+
+/*Clients Start*/
+.clients{
+	background-image:url(../images/fact.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position: relative;
+	padding: 65px 0;
+}
+.next_img{
+	background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fab700;
+    border-radius: 50%;
+    margin-top: 86px;
+    display: inline-block;
+}
+.c_1{
+
+}
+.p_text{
+	font-size:18px;
+	color:white;
+	padding-top:20px;
+}
+/*Clients End*/
+
+/*Latest Start*/
+.latest{
+	padding: 120px 0;
+}
+.l_img{
+	padding-bottom: 25px;
+	cursor:pointer;
+	transition:0.3s;
+}
+.l_img img{
+	width:100%;
+}
+.l_img:hover{
+	opacity:0.7;
+}
+/*Latest End*/
+
+/*Enjoy Start*/
+.enjoy{
+	background-image:url(../images/feedback-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: relative;
+}
+.e_overlay{
+	background:rgba(0,0,0,0.7);
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.l_top{}
+.h1_color,.p_color{
+	color:white;
+}
+.l_carousel {
+    margin: 50px 0;
+}
+.i_custom{
+    left: -495px;
+    top: 165px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.i_custom li{
+    width: 10px;
+    height: 10px;
+    background-color: #fab700;
+}
+.h4{
+	color:white;
+}
+.star{
+	margin: 9px 0 0 15px;
+}
+.h4_star{
+
+}
+.c_active{
+	color: orange;
+	font-size: 14px;
+}
+/*Enjoy End*/
+/*Blog Start*/
+.blog{
+	padding: 120px 0;
+}
+/*Blog End*/
+/*footer start*/
+.footer{
+	background-color:#04091e;
+	padding: 120px 0;
+}
+.f_left{}
+.f_h3,.f_h4,.f_h5{
+    font-size: 20px;
+    color: white;
+}
+.f_p {
+    font-size: 14px;
+    color: #777777;
+    padding: 10px 0;
+}
+.heart{
+	color: #fab700;
+}
+.n_bar {
+    min-width: 287px;
+}
+.btn_custom{
+	color: #fff;
+    background: #fab700;
+    border: 1px solid #fab700;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.f_social{
+	padding-top: 7px;
+}
+.f_social a{
+	text-decoration:none;
+}
+.f_social a i{
+	font-size: 14px;
+	color:white;
+	transition:0.3s;
+}
+.f_social a i:hover{
+	color:#fab700;
+}
+.f_right{
+	padding-left: 10px;
+}
+.p_25{
+	padding-right: 25px;
+}
+/*footer end*/
